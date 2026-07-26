@@ -57,7 +57,7 @@ class DataIngestion:
   def split_data_as_train_test(self,dataframe:pd.DataFrame):
     try:
       train_set,test_set=train_test_split(dataframe,test_size=self.data_ingestion_config.train_test_split_ratio)
-      
+
       logging.info("performed tarin trst split")
       logging.info("Exited Split_data_as_train_test method for dataIngestion class")
 
@@ -83,6 +83,7 @@ class DataIngestion:
       self.split_data_as_train_test(dataframe)
 
       dataingestionartifact=DataIngestionArtifact(trained_file_path=self.data_ingestion_config.training_file_path,test_file_path=self.data_ingestion_config.testing_file_path)
+      
       return  dataingestionartifact
 
     except Exception as e:
