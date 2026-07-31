@@ -1,0 +1,23 @@
+[ 2026-07-30 12:04:42,895 ] 164 numexpr.utils - INFO - NumExpr defaulting to 2 threads.
+[ 2026-07-30 12:04:53,856 ] 17 root - INFO - initiate data ingestion
+[ 2026-07-30 12:04:59,167 ] 61 root - INFO - performed tarin trst split
+[ 2026-07-30 12:04:59,168 ] 62 root - INFO - Exited Split_data_as_train_test method for dataIngestion class
+[ 2026-07-30 12:04:59,172 ] 66 root - INFO - exporting train and test file path.
+[ 2026-07-30 12:04:59,367 ] 72 root - INFO - Exported train and test file path
+[ 2026-07-30 12:04:59,367 ] 19 root - INFO - data Initiation completed
+[ 2026-07-30 12:04:59,555 ] 23 root - INFO - Initiate the Data Validation
+[ 2026-07-30 12:04:59,627 ] 33 root - INFO - Required number of columns:2
+[ 2026-07-30 12:04:59,628 ] 34 root - INFO - Dataframe has column:32
+[ 2026-07-30 12:04:59,628 ] 33 root - INFO - Required number of columns:2
+[ 2026-07-30 12:04:59,628 ] 34 root - INFO - Dataframe has column:32
+[ 2026-07-30 12:05:00,028 ] 25 root - INFO - data validation completed
+[ 2026-07-30 12:05:00,029 ] 29 root - INFO - data transformation started
+[ 2026-07-30 12:05:00,030 ] 52 root - INFO - Entered Initiated data_transformation_method of Data Transformation class
+[ 2026-07-30 12:05:00,031 ] 55 root - INFO - Starting Data Transformation
+[ 2026-07-30 12:05:00,103 ] 41 root - INFO - Entered get_data_transformer_object method of DataTransformation class
+[ 2026-07-30 12:05:00,103 ] 44 root - INFO - initialise KNNcomputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-07-30 12:05:00,156 ] 50 root - INFO - Entered the save_object method of main utils class
+[ 2026-07-30 12:05:00,180 ] 33 root - INFO - data transformation completed
+[ 2026-07-30 12:05:00,180 ] 35 root - INFO - model training started
+[ 2026-07-30 12:15:11,979 ] 50 root - INFO - Entered the save_object method of main utils class
+[ 2026-07-30 12:15:12,137 ] 111 root - INFO - Model Trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts/07_30_2026_12_04_43/model_trainer/trained_model/model.pkl', trained_metric_artifact=ClasssificationMetricArtifact(f1_score=1.0, precision_score=1.0, recall_score=1.0), test_metric_artifact=ClasssificationMetricArtifact(f1_score=0.9735537190082645, precision_score=0.9727497935590421, recall_score=0.9743589743589743))
